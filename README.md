@@ -350,6 +350,28 @@ These files document the planning, implementation, testing, and completion workf
 
 ---
 
+### IBM Bob Development Evidence
+
+#### 1. Planning with IBM Bob
+
+IBM Bob was used to turn the initial DataGuard concept into a structured implementation plan covering the dataset, analytics pipelines, regression guards, automated testing, and Streamlit demo.
+
+![Planning with IBM Bob](bob_sessions/01-planning-with-bob.png)
+
+#### 2. Implementation & Testing
+
+IBM Bob assisted with implementing the approved architecture and running the automated validation workflow.
+
+![Implementation and Testing with IBM Bob](bob_sessions/02-implementation-testing.png)
+
+#### 3. Task Completion
+
+The completed implementation passed the full automated test suite:
+
+**11 tests passed.**
+
+![IBM Bob Task Completed](bob_sessions/03-task-completed.png)
+
 ## Tech Stack
 
 | Technology | Purpose |
