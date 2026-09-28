@@ -63,6 +63,24 @@ The code runs successfully — but revenue is doubled.
 
 ---
 
+## DataGuard in Action
+
+### 🔴 Before — Regression Detected
+
+A duplicate-row join silently doubles reported revenue.
+
+![DataGuard detecting analytics regression](screenshots/01-regression-detected.png)
+
+**Result:** Expected revenue $24,849.20 → reported revenue $49,698.40 → **+100.0% deviation → 0/4 checks passed**
+
+### 🟢 After — Regression Resolved
+
+After switching to the corrected pipeline, the expected and actual metrics match.
+
+![DataGuard regression resolved](screenshots/02-regression-resolved.png)
+
+**Result:** Expected revenue $24,849.20 → actual revenue $24,849.20 → **0.0% deviation → 4/4 checks passed**
+
 ## Regression Detected ❌
 
 DataGuard compares the pipeline output against deterministic business expectations.
